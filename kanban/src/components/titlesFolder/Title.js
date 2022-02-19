@@ -1,13 +1,9 @@
-import '../titlesFolder/Title.css'
+import './Title.css'
 
 const Title = (props) => {
-  const { icons, colorText, children } = props
+  const { colorText, children } = props
 
-  return (
-    <div className={`title title__${icons} title__${colorText}`}>
-      {children}
-    </div>
-  )
+  return <div className={`title title__${colorText}`}>{children}</div>
 }
 
 export default Title

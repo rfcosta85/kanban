@@ -1,7 +1,7 @@
 .box {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
   padding: 5px;
 
   position: static;
@@ -9,6 +9,9 @@
   height: 221px;
   left: 0px;
   top: 5px;
+
+  gap: 10px;
+  padding: 20px 0 0 20px;
 
   border-radius: 0px 0px 4px 4px;
 }

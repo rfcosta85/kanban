@@ -1,6 +1,8 @@
 .App {
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  justify-content: space-evenly;
+
   margin-top: 50px;
+  gap: 50px;
 }
