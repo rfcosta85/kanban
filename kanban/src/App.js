@@ -1,5 +1,6 @@
 import logo from './Home.png';
 import './App.css';
+import column from './components/column/column.js';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
           Kanban
         </p>
         <img src={logo} className="App-logo" alt="logo" />
+        <div class ="column_car">TEXTE</div>
         
       </header>
     </div>
