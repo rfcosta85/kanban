@@ -1,12 +1,8 @@
 import '../tasksFolder/Tasks.css'
 
 const Tasks = (props) => {
-  const { variant } = props
-  return (
-    <div className={`box box__${variant}`}>
-      <div className={`title`}></div>
-    </div>
-  )
+  const { variant, children } = props
+  return <div className={`box box__${variant}`}>{children}</div>
 }
 
 export default Tasks
