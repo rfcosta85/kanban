@@ -4,7 +4,7 @@ const Icons = (props) => {
   const { img } = props
   return (
     <div className={`icon`}>
-      <img className="test" src={img} alt="Note Icon"></img>
+      <img className="imgIcons" src={img} alt="Icons"></img>
     </div>
   )
 }
