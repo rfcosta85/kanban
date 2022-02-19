@@ -1,4 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 .App {
+  margin: 10px 60px;
+}
+
+.kanban-tasks {
   display: flex;
   justify-content: center;
   flex-direction: row;

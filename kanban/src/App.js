@@ -10,22 +10,29 @@ import imgFolderDone from './components/imgFolderDone/done.svg'
 function App() {
   return (
     <div className="App">
-      <Tasks variant="blue">
-        <Icons img={imgFolder}></Icons>
-        <Title>To Do</Title>
-      </Tasks>
-      <Tasks variant="orange">
-        <Icons img={imgFolderProgress}></Icons>
-        <Title>In Progress</Title>
-      </Tasks>
-      <Tasks variant="purple">
-        <Icons img={imgFolderReview}></Icons>
-        <Title>Review</Title>
-      </Tasks>
-      <Tasks variant="green">
-        <Icons img={imgFolderDone}></Icons>
-        <Title colorText="black">Done</Title>
-      </Tasks>
+      <section className="container">
+        <div className="kanban-title-box">
+          <h1 className="kanban-title">Kanban</h1>
+        </div>
+        <div className="kanban-tasks">
+          <Tasks variant="blue">
+            <Icons img={imgFolder}></Icons>
+            <Title>To Do</Title>
+          </Tasks>
+          <Tasks variant="orange">
+            <Icons img={imgFolderProgress}></Icons>
+            <Title>In Progress</Title>
+          </Tasks>
+          <Tasks variant="purple">
+            <Icons img={imgFolderReview}></Icons>
+            <Title>Review</Title>
+          </Tasks>
+          <Tasks variant="green">
+            <Icons img={imgFolderDone}></Icons>
+            <Title colorText="black">Done</Title>
+          </Tasks>
+        </div>
+      </section>
     </div>
   )
 }
