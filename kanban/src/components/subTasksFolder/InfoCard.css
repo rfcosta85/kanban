@@ -1,0 +1,31 @@
+.card {
+  background-color: #ffff;
+  height: 81px;
+  border-radius: 4px;
+  margin-top: 10px;
+  box-shadow: 1px 1px solid black;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.picture {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin: 10px;
+}
+
+.label {
+  background-color: #59b4d1;
+
+  border: 8px;
+  width: 50px;
+  margin-left: 10px;
+
+  text-align: center;
+  color: #ffff;
+}

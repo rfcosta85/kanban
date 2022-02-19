@@ -6,6 +6,8 @@ import imgFolder from './components/imgFolder/note.svg'
 import imgFolderProgress from './components/imgFolderProgress/progress.svg'
 import imgFolderReview from './components/imgFolderReview/review.svg'
 import imgFolderDone from './components/imgFolderDone/done.svg'
+import InfoCard from './components/subTasksFolder/InfoCard'
+import avatarFolder from './avatarFolder/Female.svg'
 
 function App() {
   return (
@@ -16,8 +18,22 @@ function App() {
         </div>
         <div className="kanban-tasks">
           <Tasks variant="blue">
-            <Icons img={imgFolder}></Icons>
-            <Title>To Do</Title>
+            <div className="container-task">
+              <div className="subtask__title">
+                <Icons img={imgFolder}></Icons>
+                <Title>To Do</Title>
+              </div>
+              <div className="kanban-decoration">
+                <InfoCard image={avatarFolder}>
+                  <span className="substask-name">Christimas Banners</span>
+                </InfoCard>
+              </div>
+              <div className="kanban-decoration">
+                <InfoCard image={avatarFolder}>
+                  <span className="substask-name">Redo Portfolio</span>
+                </InfoCard>
+              </div>
+            </div>
           </Tasks>
           <Tasks variant="orange">
             <Icons img={imgFolderProgress}></Icons>

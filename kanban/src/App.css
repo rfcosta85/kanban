@@ -15,3 +15,36 @@
   margin-top: 50px;
   gap: 50px;
 }
+
+.container-task {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.kanban-title {
+  font-family: "'Roboto', sans-serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 45px;
+  letter-spacing: -0.02em;
+
+  color: #171717;
+}
+
+.subtask__title {
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+}
+
+.kanban-decoration {
+  width: 255px;
+}
+
+.substask-name {
+  margin: 10px 0 0 10px;
+}
