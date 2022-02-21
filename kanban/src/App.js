@@ -1,19 +1,28 @@
-import logo from './Home.png';
+import back from './Home.png';
 import './App.css';
-import column from './components/column/column.js';
+import Card from './components/Card/Card';
+import avatar from './components/icon/female.png'
+import avatar2 from './components/icon/man.png'
+import Label from './components/Label_card/Label_card'
+
 
 function App() {
   return (
+    
     <div className="App">
       <header className="App-header">
-      <p class="kanban_text">
-          Kanban
-        </p>
-        <img src={logo} className="App-logo" alt="logo" />
-        <div class ="column_car">TEXTE</div>
-        
-      </header>
+      <p class="kanban_text">Kanban </p>
+      <div className="Card_div">
+        <Card>
+        <p className="text1_style">Christmas Banners</p>
+         <img src={avatar} className="avatar_male" alt="avatar" />
+        </Card>
+        </div>
+      
+     </header>
+      
     </div>
+    
   );
 }
 

@@ -1,0 +1,12 @@
+  .card_label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     background-color: #ffff;
+     height: 81px;
+     width: 280px;
+   margin-top: 10px;
+   border-radius: 4px;
+   
+
+  }  
