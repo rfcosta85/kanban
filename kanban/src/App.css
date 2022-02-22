@@ -1,7 +1,7 @@
 
 .container {
   background-color: #E1E8ED;
-  min-height: 100vh;
+  min-height: 130vh;
   display: flex;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -39,8 +39,12 @@
   
 }
 
-.avatar_male{
- margin-left: 20px;
- margin-top: 36px;
-
-}
+  .avatar_div{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+  }
+  .avatar{
+    margin-top: 0;
+    margin-left: 0;
+  }

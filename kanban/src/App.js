@@ -1,5 +1,7 @@
 import './App.css';
-import Card from './components/Card/Card'
+import Card from './components/Card/Card';
+import avatarM from './components/icon/man.png'
+import avatarF from './components/icon/female.png'
 
 function App() {
   return (
@@ -7,47 +9,75 @@ function App() {
  <div className="container">
       <p class="kanban_text">Kanban</p>
     <div className="tasks">
-      <div className="Card_ToDo">
-           <Card>Christmas Banners
-             <div>
-           <span className="label">Label</span>
-           </div>
-            </Card>
-            <Card>Redo Portfolio
-            <span className="label">Label</span>
-            </Card>
+     <div className="Card_ToDo">
+          <Card>Christmas Banners
+             <div className="avatar_div">
+                 <img src={avatarM} className="avatar" alt="avatar"></img>
+                 <span className="label">Label</span>
+             </div>
+          </Card>
+          <Card>Redo Portfolio
+            <div className="avatar_div">
+                <img src={avatarM} className="avatar" alt="avatar"></img>
+                <span className="label">Label</span>
+            </div>
+          </Card>
       </div>
-      <div className="Card_inProgress">
-        <Card>Coffee Break
-        <span className="label_orange">Always</span>
-        </Card>
-        <Card>Updating Portfolio 
-        <span className="label_orange">Webflow</span>
-        </Card>  
-      </div>
-      <div className="Card_Review">
-        <Card>Release to Figma Community
-        <span className="label_purple">Release</span>
+     <div className="Card_inProgress">
+          <Card>Coffee Break
+               <div className="avatar_div">
+                      <img src={avatarF} className="avatar" alt="avatar"></img>
+                      <span className="label_orange">Always</span>
+               </div>
+         </Card>
+         <Card>Updating Portfolio 
+               <div className="avatar_div">
+                     <img src={avatarF} className="avatar" alt="avatar"></img>
+                    <span className="label_orange">Webflow</span>
+               </div>
+         </Card>  
+     </div>
+     <div className="Card_Review">
+          <Card>Release to Figma Community
+               <div className="avatar_div">
+                      <img src={avatarM} className="avatar" alt="avatar"></img>
+                      <span className="label_purple">Release</span>
+               </div>
         </Card>
         <Card>User Feedback
-        <span className="label_purple">Feedback</span>
+               <div className="avatar_div">
+                      <img src={avatarM} className="avatar" alt="avatar"></img>
+                      <span className="label_purple">Feedback</span>
+               </div>
           </Card>  
         <Card>Background images from humaaans.com
-        <span className="label_purple">Sourcing</span>
+              <div className="avatar_div">
+                      <img src={avatarM} className="avatar" alt="avatar"></img>
+                      <span className="label_purple">Sourcing</span>
+               </div>
         </Card>  
       </div>
-      <div className="Card_Done">
+     <div className="Card_Done">
         <Card>Style Guide
-        <span className="label_green">UI</span>
+               <div className="avatar_div">
+                     <img src={avatarF} className="avatar" alt="avatar"></img>
+                     <span className="label_green">UI</span>
+               </div>
         </Card>
         <Card>Component Library
-        <span className="label_green">UI</span>
+               <div className="avatar_div">
+                     <img src={avatarF} className="avatar" alt="avatar"></img>
+                     <span className="label_green">UI</span>
+               </div>
         </Card>  
         <Card>Sticker Components
-        <span className="label_green">UI</span>
+               <div className="avatar_div">
+                      <img src={avatarF} className="avatar" alt="avatar"></img>
+                      <span className="label_green">UI</span>
+               </div>
           </Card>  
       </div>  
-  </div>    
+    </div>    
  </div>
     
   );
