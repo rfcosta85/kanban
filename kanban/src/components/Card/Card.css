@@ -54,14 +54,3 @@
       margin: 0;
       Width:260px;
   }
-
-  .avatar_male{
-   margin-top: 0;
-   margin-left: 0;
-   
-  }
-  .label_div{
-    display: flex;
-     margin-top: 10px;
-     flex-direction: row;
-  }
