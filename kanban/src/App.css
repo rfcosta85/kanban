@@ -1,15 +1,23 @@
 
-.App-header {
+.container {
   background-color: #E1E8ED;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
   background-image:url('./Home.png');
   background-repeat: no-repeat;
   background-position: center;
+  
+}
+.tasks{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  position: absolute;
+  height: 792px;
+  left: 70px;
+  margin-top: 188px;
 
 }
 .kanban_text{
@@ -19,6 +27,7 @@
   line-height: 45px;
  color:#171717;
  margin-right: 1254px;
+ margin-left: 60px;
  
 }
 .card_todo{
