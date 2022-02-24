@@ -1,0 +1,41 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px;
+
+  position: static;
+  width: 270px;
+  height: 221px;
+  left: 0px;
+  top: 5px;
+
+  gap: 10px;
+  padding: 10px 0 0 10px;
+
+  border-radius: 0px 0px 4px 4px;
+}
+
+.title {
+  color: #ffff;
+}
+
+.box__blue {
+  background-color: #59b4d1;
+}
+
+.box__orange {
+  background-color: #d0935a;
+}
+
+.box__purple {
+  background-color: #945ad1;
+}
+
+.box__green {
+  background-color: #59d090;
+}
+
+.box__height {
+  height: 320px;
+}

@@ -1,0 +1,13 @@
+.title {
+  font-family: "'Roboto', sans-serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #ffff;
+}
+
+.title__black {
+  color: #171717;
+}
